@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>О себе — Bakaou</title>
+        <link rel="stylesheet" href="style.css">
+
+<style>
+    h1, h2 {
+        color: #00d4ff;
+        font-family: 'Courier New', monospace;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+</style>
+    </head>
+<body>
+
+    <header>
+
+        <h1>Bakaou Fofana</h1>
+        <p>Портфолио — Футуролог и концепт-художник</p>
+        <img src="https://picsum.photos/seed/future/200/200" alt="Аватар — Bakaou Fofana" width="200" height="200">
+
+    <nav class="menu-nav">
+        <a href="#skills">Навыки</a>
+        <a href="#projects">Проекты</a>
+        <a href="#tehnologii">Технологии</a>
+        <a href="#prognozy">Прогнозы</a>
+        <a href="#feedback">Связь</a>
+    </nav>
+
+    <button id="btn-theme">Переключить тему</button>
+    </header>
+
+    <main>
+        <section id="skills">
+            <h2>Навыки</h2>
+            <ul>
+                <li>Создание концепт-артов</li>
+                <li>Сценарное планирование</li>
+                <li>Анализ технологических трендов</li>
+                <li>3D-визуализация</li>
+            </ul>
+        </section>
+<section id="projects">
+    <h2>Проекты</h2>
+    <div class="cartes-projets">
+        <article class="carte" style="overflow: hidden;">
+              <h3 class="texte-carte">Концепт "Вертикальный город 2075"</h3>
+        </article>
+        <article class="carte" style="overflow: hidden;">
+            <h3 class="texte-carte">Нейроинтерфейс для творчества</h3>
+        </article>
+        <article class="carte" style="overflow: hidden;">
+            <h3 class="texte-carte">Марсианская колония "Аврора"</h3>
+        </article>
+        <article class="carte" style="overflow: hidden;">
+            <h3 class="texte-carte">ИИ-соавтор в дизайне</h3>
+        </article>
+    </div>
+</section>
+
+
+<section id="tehnologii">
+    <h2>Технологии будущего</h2>
+    <div class="cartes-tech">
+        <article class="carte-tech">
+            <h3>Нейроинтерфейсы</h3>
+            <p>Прямая связь мозг-компьютер для творческого процесса.</p>
+            <p class="annee">Прогноз: 2032</p>
+        </article>
+        <article class="carte-tech">
+            <h3>Голографические дисплеи</h3>
+            <p>Проектирование трёхмерных моделей прямо в воздухе.</p>
+            <p class="annee">Прогноз: 2029</p>
+        </article>
+        <article class="carte-tech">
+            <h3>ИИ-соавторство</h3>
+            <p>Нейросети как полноценные партнёры в дизайне.</p>
+            <p class="annee">Прогноз: 2028</p>
+        </article>
+        <article class="carte-tech">
+            <h3>Биопечать сооружений</h3>
+            <p>3D-печать зданий из живых материалов.</p>
+            <p class="annee">Прогноз: 2040</p>
+        </article>
+    </div>
+</section>
+
+<section id="prognozy">
+    <h2>Прогнозы по сферам</h2>
+    <div class="grid-prognozy">
+        <article class="bloc-prognoz">
+            <h3>Транспорт</h3>
+            <p>К 2035 году <mark>автономные дроны</mark> станут основным видом городской доставки.</p>
+            <p class="probabilite">Вероятность: 78%</p>
+        </article>
+        <article class="bloc-prognoz">
+            <h3>Медицина</h3>
+            <p><mark>Персонализированная генная терапия</mark> станет доступной для массового пациента.</p>
+            <p class="probabilite">Вероятность: 65%</p>
+        </article>
+        <article class="bloc-prognoz">
+            <h3>Искусство</h3>
+            <p><mark>Совместное творчество человека и ИИ</mark> станет нормой в дизайне и кино.</p>
+            <p class="probabilite">Вероятность: 90%</p>
+        </article>
+    </div>
+</section>
+
+<section id="prognozy-interactif">
+    <h2>Прогнозы с вероятностью</h2>
+    <button id="btn-ajouter-prognoz">Добавить прогноз</button>
+    <button id="btn-cacher-prognoz">Скрыть прогнозы</button>
+    <div id="liste-prognozov"></div>
+</section>
+
+
+       <aside>
+        <h2>Технология будущего</h2>
+        <p>Искусственный интеллект — я считаю, что именно эта технология изменит мир в ближайшие десятилетия.</p>
+    </aside>
+
+    <section id="feedback">
+        <h2>Обратная связь</h2>
+        <form action="#" method="post">
+             <label for="name">Имя</label><br>
+            <input type="text" id="name" name="name" placeholder="Введите ваше имя"><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="example@mail.com"><br><br>
+
+            <label for="message">Сообщение</label><br>
+            <textarea id="message" name="message" placeholder="Ваше сообщение..."></textarea><br><br>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Bakaou Fofana</p>
+</footer>
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+
+</html>
+
+
